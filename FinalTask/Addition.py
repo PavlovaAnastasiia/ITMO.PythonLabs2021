@@ -6,11 +6,11 @@ def addition():
 
     shoplists = ["category", "product", "cost", "date"]
     shop = []
-    category = input("Category: ")
+    category = input("Category: ").capitalize()
     shop.insert(category)
-    product = input("Product: ")
+    product = input("Product: ").capitalize()
     shop.append(product)
-    cost = input("Cost: ")
+    cost = input("Cost: ").capitalize()
     shop.append(cost)
     date = input("Date in the format (dd/mm/yyyy): \n")
     shop.append(date)
